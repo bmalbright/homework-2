@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: #F5A719;
+    color: white;
+}
+
+@font-face {
+    font-family: myfirstfont;
+    src: url(LibreCaslonDisplay-Regular.ttf);
+    font-weight: bold;
+}
+
+.header {
+    background-color: #869ACC;
+    height: 100px;
+    width: 96%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+
+.name {
+    display: flex;
+    font-size: 400%;
+    color: white;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 3%;
+    font-family: myfirstfont;
+}
+
+.nav {
+    display:flex;
+    color:white;
+    margin-left: auto;
+    align-items: center;
+    font-size: 200%;
+    font-family: myfirstfont;
+    padding-right: 10%;
+
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 10px;
+}
+
+.hero {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/Users/briansmacmini2021/Desktop/bootcamp/homework/homework-2/assets/css/background-image.jpeg");
+    background-color: #cccccc;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    border-radius: 0px 0px 20px 20px;
+    }
+
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    font-family: myfirstfont;
+}
+
+.bio {
+    width: 100px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 300%;
+}
+
+.bioparagraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 150px;
+    font-size: 150%;
+}
+
+
+@media screen and (min-width:996px)
