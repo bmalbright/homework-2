@@ -3,6 +3,7 @@
 body {
     background-color: #F5A719;
     color: white;
+    font-family: myfirstfont;
 }
 
 @font-face {
@@ -31,7 +32,6 @@ body {
     align-items: center;
     margin-right: auto;
     padding-left: 3%;
-    font-family: myfirstfont;
 }
 
 .nav {
@@ -40,14 +40,17 @@ body {
     margin-left: auto;
     align-items: center;
     font-size: 200%;
-    font-family: myfirstfont;
     padding-right: 10%;
-
 }
 
 nav ul li {
     display:inline;
     margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .hero {
@@ -64,21 +67,16 @@ nav ul li {
     border-radius: 0px 0px 20px 20px;
     }
 
+    .aboutme {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 90%;
+    }
 
-.aboutme {
+.maintitles {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    font-family: myfirstfont;
-}
-
-.bio {
-    width: 100px;
-    margin-right: auto;
-    display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 300%;
@@ -86,11 +84,81 @@ nav ul li {
 
 .bioparagraph {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
-    padding-left: 150px;
     font-size: 150%;
+    width: 400px;
+}
+
+.projectboxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+figcaption {
+    position: absolute;
+}
+
+    .img1 {
+        width: 90vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        position: relative;
+    }
+    
+    .img {
+        width: 40vh;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 25px;
+        position: relative;
+    }
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
 }
 
 
-@media screen and (min-width:996px)
+.hero1 {
+display: flex;
+margin-top: 15px;
+margin-left: auto;
+margin-right: auto;
+background-image: url("/Users/briansmacmini2021/Desktop/bootcamp/homework/homework-2/assets/css/background-image.jpeg");
+background-color: #cccccc;
+height: 50px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 96%;
+border-radius: 20px 20px 0px 0px;
+}
+
+.footer {
+    background-color: #869ACC;
+    height: 85px;
+    width: 96%;
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.contact {
+    display: flex;
+    font-size: 250%;
+    color: white;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 3%;
+}
