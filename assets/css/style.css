@@ -1,16 +1,17 @@
-
+/*styling for the body*/
 body {
     background-color: #F5A719;
     color: white;
     font-family: myfirstfont;
 }
-
+/*adds a font family*/
 @font-face {
     font-family: myfirstfont;
     src: url(LibreCaslonDisplay-Regular.ttf);
     font-weight: bold;
 }
 
+/*sets margin around header section, sets head background color, sets border radius*/
 .header {
     background-color: #869ACC;
     height: 100px;
@@ -21,6 +22,7 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 
+/*Setting for "name" in the header, including font color and size, and aligns in within the header*/
 .name {
     display: flex;
     font-size: 400%;
@@ -30,6 +32,7 @@ body {
     padding-left: 3%;
 }
 
+/*Settings for the nav list with font size and color, and sets in inline - used in header and footer*/
 .nav {
     display:flex;
     color:white;
@@ -49,6 +52,7 @@ nav ul li a{
     color: white;
 }
 
+/*setting for the hero image attached immediately below the header, setting height, margins, and border radius */
 .hero {
     display: flex;
     background-image: url("/Users/briansmacmini2021/Desktop/bootcamp/homework/homework-2/assets/css/background-image.jpeg");
@@ -62,6 +66,7 @@ nav ul li a{
     border-radius: 0px 0px 20px 20px;
     }
 
+    /*setting for the aboutme section, which includes the title and bio paragraph*/
 .aboutme {
     display: flex;
     flex-direction: row;
@@ -71,6 +76,7 @@ nav ul li a{
     padding-bottom: 40px;
     }
 
+    /*aligns the bio title and sets the font size and margine*/
 .bio {
     align-items: center;
     font-size: 300%;
@@ -79,6 +85,7 @@ nav ul li a{
     padding-right: 40px;
     }
 
+    /*set font size for bio paragraph, sets border, padding, and margin*/
 .bioparagraph {
     font-size: 150%;
     border-left: 5px solid black;
@@ -87,24 +94,26 @@ nav ul li a{
     margin-left: 40px
     }
 
-
+/*sets flex settings for the */
 .projects {
     display: flex;
     flex-direction: row;
     align-items: center;
     }
 
+    /*sets font size for the project title and sets left margin*/
 .projecttitle {
     font-size: 300%;
     margin-left: 20px;
     }
 
-
+/*sets a boder with solid line to divide */
 .projectboxes {
     border-left: 5px solid black;
     margin-left: 40px
     }
 
+    /*settings for the large image for width and height, sets border radius*/
 .img1 {
     width: 600px;
     height: auto;
@@ -112,18 +121,20 @@ nav ul li a{
     position: relative;
     }
 
+    /*flex setting for the large image*/
 .mainproject {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     }
     
-
+/*flex setting for the four smaller images*/
 .figure {
     display: flex;
     flex-flow: column;
 }
     
+/*sets width/height and border radius for the smaller images*/
 .img {
     width: 250px;
     height: auto;
@@ -131,19 +142,19 @@ nav ul li a{
     position: relative;
     }
 
+    /*ill conceived attempt to use figcaptions to label projects, sets font color*/
 .figcaption {
     color: #fff;
     text-align: center;
     }
 
-
+/*settings for the lower hero attached to the footer, setting */
 .hero1 {
 display: flex;
 margin-left: 20px;
 margin-right: 20px;
 margin-top: 30px;
 background-image: url("/Users/briansmacmini2021/Desktop/bootcamp/homework/homework-2/assets/css/background-image.jpeg");
-background-color: #cccccc;
 height: 50px;
 background-position: center;
 background-repeat: no-repeat;
@@ -151,6 +162,7 @@ background-size: cover;
 border-radius: 20px 20px 0px 0px;
 }
 
+/*settings for the footer, including background color, height, margins, and border radius*/
 .footer {
     background-color: #869ACC;
     height: 85px;
@@ -161,6 +173,7 @@ border-radius: 20px 20px 0px 0px;
     border-radius: 0px 0px 20px 20px;
 }
 
+/*settings for the contacts in the footer*/
 .contact {
     display: flex;
     font-size: 250%;
