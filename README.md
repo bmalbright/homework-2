@@ -11,6 +11,6 @@ I know I haven't finished all the elements, but I got the flex working, and that
 
 I'm pretty fried on this project, and can't think of anything more to describe what I did. May this project rest in peace. 
 
-https://github.com/bmalbright/homework-2.git
+https://bmalbright.github.io/homework-2/
 
 ![](./assets/pics/screencapture-hw2.png)
