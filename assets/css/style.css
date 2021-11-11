@@ -55,7 +55,7 @@ nav ul li a{
 /*setting for the hero image attached immediately below the header, setting height, margins, and border radius */
 .hero {
     display: flex;
-    background-image: url("/assets/pics/background-image.jpeg");
+    background-image: url("/assets/background/background-image.jpeg");
     height: 150px;
     background-position: center;
     background-repeat: no-repeat;
