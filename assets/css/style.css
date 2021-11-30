@@ -107,6 +107,11 @@ nav ul li a{
     margin-left: 20px;
     }
 
+    .note {
+        font-size: 100%;
+        margin-left: 20px;
+        }
+
 /*sets a boder with solid line to divide */
 .projectboxes {
     border-left: 5px solid black;
